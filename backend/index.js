@@ -7,8 +7,8 @@ const path = require("path");
 const mongoose = require("mongoose");
 
 const data = require("./jsondata.json");
-const Dashboard = require("./model/dashboardModel");
-const dashboardRouter = require("./routes/dashboardRouter");
+const Dashboard = require("./api/model/dashboardModel");
+const dashboardRouter = require("./api/routes/dashboardRouter");
 
 const app = express();
 
